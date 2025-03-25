@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto' sans-serif; 
+    font-weight: 400;
+}
+.header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: antiquewhite;
+
+    padding: 0 200px 0 200px;
+} 
+.logo {
+    font-size: 18px;
+    font-weight: 600;
+}
+.header-right {
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    color: #E5E7EB;
+    font-weight: 300;
+    
+
+}
+.title {
+    display: flex;   
+    padding: 0 200px;
+    justify-content: space-between;
+    background-color: #1F2937;
+    margin: 0;
+    flex: 1 1 auto;
+
+    padding-bottom: 30px;
+}
+.title-left {
+    width: 400px;
+}
+.title-image img {
+    width: 400px;
+    height: 180px;
+}
+.main-title {
+    font-size: 46px;
+    font-weight: 900;
+    color: #F9FAF8;
+    
+}
+.sub-title {
+    font-size: 16px;
+    color: #bcbec0;
+    padding-bottom: 8px;
+}
+.title-signup button {
+    background-color: #3882F6;
+    color: antiquewhite;
+    border-radius: 6px;
+    padding: 8px 28px;
+    font-size: 14px;
+    border: none;
+}
+
+.info .info-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 20px 200px;
+}
+.info .info-container {
+    display: flex;
+    padding: 0 200px;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+}
+.info-photo {
+    max-width: 100px;
+}
+.info-text {
+    color: #444c57;
+}
+
+.info img {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 4px;
+}
+.quote {
+    background-color: #E5E7EB ;
+    padding: 20px 290px;
+    margin-top: 20px;
+}
+.quote .text {
+    font-size: 28px;
+    font-style: italic;
+    color: #606770;
+}
+.quote .author {
+    padding-left: 500px;
+    padding-top: 5px;
+}
+.call-to-action {
+
+    margin: 30px 200px;
+    padding: 40px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+}
+.call-button {
+    background: #3882F6;
+    color: antiquewhite;
+    border: 2px solid antiquewhite;
+    padding: 8px 28px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+.call-text .call-text-f {
+    color: rgb(228, 226, 225);
+    font-weight: 650;
+    font-size: 18px;
+}
+.call-text .call-text-s {
+    color: #bcbec0;
+}
+.footer {
+    background-color: #1F2937;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    font-weight: 300;
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+
